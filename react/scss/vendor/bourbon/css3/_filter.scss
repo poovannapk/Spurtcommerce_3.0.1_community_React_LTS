@@ -1,0 +1,13 @@
+/*
+* spurtcommerce
+* http://www.spurtcommerce.com
+*
+* Copyright (c) 2021 Piccosoft Software Labs Pvt Ltd
+* Author Piccosoft Software Labs Pvt Ltd <support@spurtcommerce.com>
+* Licensed under the MIT license.
+*/
+
+@mixin filter($function: none) {
+    // <filter-function> [<filter-function]* | none
+    @include prefixer(filter, $function, webkit spec);
+}

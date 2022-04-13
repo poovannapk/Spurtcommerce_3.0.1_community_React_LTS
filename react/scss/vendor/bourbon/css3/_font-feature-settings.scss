@@ -1,0 +1,15 @@
+/*
+* spurtcommerce
+* http://www.spurtcommerce.com
+*
+* Copyright (c) 2021 Piccosoft Software Labs Pvt Ltd
+* Author Piccosoft Software Labs Pvt Ltd <support@spurtcommerce.com>
+* Licensed under the MIT license.
+*/
+
+@mixin font-feature-settings($settings...) {
+    @if length($settings) == 0 {
+        $settings: none;
+    }
+    @include prefixer(font-feature-settings, $settings, webkit moz ms spec);
+}

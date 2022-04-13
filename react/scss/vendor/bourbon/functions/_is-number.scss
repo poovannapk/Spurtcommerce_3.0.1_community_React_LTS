@@ -1,0 +1,20 @@
+/*
+* spurtcommerce
+* http://www.spurtcommerce.com
+*
+* Copyright (c) 2021 Piccosoft Software Labs Pvt Ltd
+* Author Piccosoft Software Labs Pvt Ltd <support@spurtcommerce.com>
+* Licensed under the MIT license.
+*/
+
+@charset "UTF-8";
+
+/// Checks for a valid number.
+///
+/// @param {Number} $value
+///
+/// @require {function} contains
+
+@function is-number($value) {
+    @return contains('0' '1' '2' '3' '4' '5' '6' '7' '8' '9' 0 1 2 3 4 5 6 7 8 9, $value);
+}

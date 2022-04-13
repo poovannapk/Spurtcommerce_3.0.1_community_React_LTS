@@ -1,0 +1,16 @@
+/*
+* spurtcommerce
+* http://www.spurtcommerce.com
+*
+* Copyright (c) 2021 Piccosoft Software Labs Pvt Ltd
+* Author Piccosoft Software Labs Pvt Ltd <support@spurtcommerce.com>
+* Licensed under the MIT license.
+*/
+
+@charset "UTF-8";
+
+/// A global setting to enable or disable the `$asset-pipeline` variable for all functions that accept it.
+///
+/// @type Bool
+
+$asset-pipeline: false !default;

@@ -1,0 +1,234 @@
+/*
+* spurtcommerce
+* http://www.spurtcommerce.com
+*
+* Copyright (c) 2021 Piccosoft Software Labs Pvt Ltd
+* Author Piccosoft Software Labs Pvt Ltd <support@spurtcommerce.com>
+* Licensed under the MIT license.
+*/
+
+.modal-custom-quote{
+    display: flex;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    // margin-right: 10px;
+    // width: 100%;
+    
+}
+
+.left-custom-quote{
+    width: 30%;
+    background-color: rgba(230,229,229,.5);
+    border: 1px solid #fff;
+    padding: .5rem;
+    flex-grow: 1;
+}
+
+.right-quote-title{
+    padding-top: 10px;
+    box-sizing: border-box;
+
+    h5{
+        font-size: 20px;
+    }
+    span{
+        font-size: 21px;
+    font-weight: 700;
+    }
+}
+.right-custom-quote{
+    width: 70%;
+    border: 1px solid #fff;
+    padding: .5rem;
+    flex-grow: 1;
+    padding-left: 10px;
+    overflow: auto!important;
+
+
+    h4{
+        position: absolute;
+        top: 9px;
+        right: 14px;
+        font-size: 20px;
+        cursor: pointer;
+
+    }
+
+
+}
+
+.right-custom-quote-row1{
+    box-sizing: border-box;   
+    margin: 0;
+    padding: 0; 
+    display: inline-block;
+}
+
+.right-custom-body{
+    box-sizing: border-box;
+}
+
+.right-custom-quote-section1{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    margin: 0;
+
+    label{
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    input{
+        margin-top: 10px;
+    width: 100%;
+    height: 35px;
+    border-radius: 7px;
+    border: 2px solid #d0cbcb;
+    outline: 0;
+    text-indent: 10px;
+    }
+
+}
+
+.right-custom-quote-section2{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+
+    label{
+        font-size: 16px;
+    font-weight: 500;
+    }
+    select{
+        outline: 0;
+        margin-top: 10px;
+        width: 100%;
+        height: 35px;
+        border-radius: 7px;
+        border: 2px solid #d0cbcb;
+        background-color: #fff;
+        font-size: 15px;
+        color: grey;
+    }
+}
+
+.right-custom-quote-section3{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+
+    label{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    select{
+        outline: 0;
+    margin-top: 10px;
+    width: 100%;
+    height: 35px;
+    border-radius: 7px;
+    border: 2px solid #d0cbcb;
+    background-color: #fff;
+    font-size: 15px;
+    color: grey;
+    }
+}
+
+.right-custom-quote-row2{
+    margin-top: 20px;
+    
+
+    label{
+        font-size: 16px;
+        font-weight: 500;
+        box-sizing: border-box;
+
+    }
+}
+
+.custom-radio-quote-container{
+    margin-top: 5px;
+}
+
+.radio-div-quote{
+    border: 2px solid #ccc9c9;
+    height: 35px;
+    border-radius: 20px;
+    padding: 5px;
+    margin-right: 15px;
+    // width: 20%;
+    display: inline-block;
+
+
+    input{
+        margin-right: 10px;
+    } 
+}
+
+.right-custom-quote-row3{
+    margin-top: 20px;
+    box-sizing: border-box;
+
+    label{
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+.comment-quote{
+    width: 74%;
+    height: 100px;
+    border: 2px solid #c5c1c1;
+    padding: 10px;
+    text-indent: 10px;
+    outline: 0;
+}
+
+.quote-image-container{
+    box-sizing: border-box;
+    
+    img{
+        width: 100%;
+        height: 200px;
+    }
+
+}
+
+.left-quote-content{
+    box-sizing: border-box;
+    
+
+}
+
+.left-quote-content-para{
+    font-size: 17px;    
+    // margin: 0 0 12px;
+    color: #fcb800;
+}
+
+.left-span-custom-quote{
+    color: grey;
+}
+
+.quote-modal-submit{
+    margin-top: 20px;
+
+    button{
+        cursor: pointer;
+        width: 200px;
+        height: 45px;
+        border: none;
+        background-color: #fcb800;
+        border-radius: 3px;
+        color: #fff;
+        font-size: 17px;
+        outline: 0;
+    }
+}
+
+
+.error-quote{
+    color: red;
+}

@@ -1,0 +1,19 @@
+/*
+* spurtcommerce
+* http://www.spurtcommerce.com
+*
+* Copyright (c) 2021 Piccosoft Software Labs Pvt Ltd
+* Author Piccosoft Software Labs Pvt Ltd <support@spurtcommerce.com>
+* Licensed under the MIT license.
+*/
+
+@function _shape-size-stripper($shape-size) {
+    $shape-size-spec: null;
+    @each $value in $shape-size {
+        @if ($value == 'cover') or ($value == 'contain') {
+            $value: null;
+        }
+        $shape-size-spec: '#{$shape-size-spec} #{$value}';
+    }
+    @return $shape-size-spec;
+}

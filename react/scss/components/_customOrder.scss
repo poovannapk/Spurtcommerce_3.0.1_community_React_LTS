@@ -1,0 +1,103 @@
+/*
+* spurtcommerce
+* http://www.spurtcommerce.com
+*
+* Copyright (c) 2021 Piccosoft Software Labs Pvt Ltd
+* Author Piccosoft Software Labs Pvt Ltd <support@spurtcommerce.com>
+* Licensed under the MIT license.
+*/
+
+.first-custom-orderdiv{
+    width: 20%;
+    float: left;
+}
+
+.second-custom-orderdiv {
+    width: 20%;
+    float: left;
+
+    button{
+        // margin-left: 20px;
+        width:90%;
+        // height: 40%;
+        // margin-top: 10px;
+        margin-right: 5px;
+        background-color: black;
+        color: white;
+        border:0;
+        font-weight: 500;
+    
+    }
+
+    button:hover{
+        width:90%;
+        margin-right: 5px;
+        background-color: #fcb800;
+        color: black;
+        border:0;
+        font-weight: 500;
+      }
+}
+
+.itemlistordercotainer{
+    margin: 0;
+    padding: 0;
+    display: block;
+
+    h3 {
+        padding: 15px;
+        border-bottom: solid thin #ddd;
+        font-size: 16px;
+        font-weight: 500;
+        color: #111;
+    }
+}
+
+.itemOrderTable {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+    width: 100%;
+}
+
+.ordertableHeador {
+    background: #F6F6F6;
+    font-weight: 500;
+    padding: 8px;
+}
+
+.orderpadding {
+    padding: 8px;
+}
+
+.orderder-button-container {
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    a {
+
+    margin: 0 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+    background: #fff;
+    color: #212121;
+    line-height: 2rem;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #d6cece;
+    }
+}
+
+.orderDownloadInvoice {
+    background: #46B032!important;
+    color: #fff!important;
+}

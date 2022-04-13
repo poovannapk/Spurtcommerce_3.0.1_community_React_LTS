@@ -1,0 +1,20 @@
+/*
+* spurtcommerce
+* http://www.spurtcommerce.com
+*
+* Copyright (c) 2021 Piccosoft Software Labs Pvt Ltd
+* Author Piccosoft Software Labs Pvt Ltd <support@spurtcommerce.com>
+* Licensed under the MIT license.
+*/
+
+@mixin image-rendering($mode: auto) {
+    @if ($mode == crisp-edges) {
+        -ms-interpolation-mode: nearest-neighbor; // IE8+
+        image-rendering: -moz-crisp-edges;
+        image-rendering: -o-crisp-edges;
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: crisp-edges;
+    } @else {
+        image-rendering: $mode;
+    }
+}

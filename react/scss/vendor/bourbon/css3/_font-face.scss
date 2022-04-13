@@ -1,0 +1,33 @@
+/*
+* spurtcommerce
+* http://www.spurtcommerce.com
+*
+* Copyright (c) 2021 Piccosoft Software Labs Pvt Ltd
+* Author Piccosoft Software Labs Pvt Ltd <support@spurtcommerce.com>
+* Licensed under the MIT license.
+*/
+
+@mixin font-face(
+    $font-family,
+    $file-path,
+    $weight: normal,
+    $style: normal,
+    $asset-pipeline: $asset-pipeline,
+    $file-formats: eot woff2 woff ttf svg
+) {
+    $font-url-prefix: font-url-prefixer($asset-pipeline);
+
+    @font-face {
+        font-family: $font-family;
+        font-style: $style;
+        font-weight: $weight;
+
+        src: font-source-declaration(
+            $font-family,
+            $file-path,
+            $asset-pipeline,
+            $file-formats,
+            $font-url-prefix
+        );
+    }
+}
